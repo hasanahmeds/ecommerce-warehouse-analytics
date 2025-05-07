@@ -1,0 +1,232 @@
+{
+  "number": 8,
+  "title": "Ecommerce Warehouse Analytics",
+  "slug": "ecommerce-warehouse-analytics",
+  "start": "2025-05-07",
+  "end": "2025-05-24",
+  "repo": "dbt-labs/jaffle_shop_duckdb",
+  "branch": "duckdb",
+  "license": "Apache-2.0",
+  "note": "dbt ecommerce-style customer/order models using DuckDB, not Snowflake.",
+  "sha": "20cc904370818ceab08cf19f8fd196e9e81def88",
+  "archive_sha256": "02a40afb17905ed90f33e0cc0926df694145b8ca35096280f7aae759358bb906",
+  "imported_at": "2026-10-28T21:31:30.691586+00:00",
+  "history": "Reconstructed import history; dates are not dates of original development.",
+  "upstream_files": {
+    "upstream/.devcontainer.json": {
+      "sha256": "403d708177501dd1ac0cb257ee6cce6e6af52c2df44ba6978c4ed75f1aa0662e",
+      "mode": "100644",
+      "bytes": 2961
+    },
+    "upstream/.github/CODEOWNERS": {
+      "sha256": "2acd1d62267f2a034cbd0ec3962924f48428804e09a5e966f7e6a5ef0b491572",
+      "mode": "100644",
+      "bytes": 15
+    },
+    "upstream/.github/workflows/validate_on_platforms.yml": {
+      "sha256": "3d3da68fc4f2746c480329a0d832c846ca559206e8671bb6fc5edefd5e87aa75",
+      "mode": "100644",
+      "bytes": 4610
+    },
+    "upstream/.gitignore": {
+      "sha256": "c37990b59bb6847fced4bd21025d613fdbee27abb45e8a2028daf6484acb0d2b",
+      "mode": "100644",
+      "bytes": 156
+    },
+    "upstream/.python-version": {
+      "sha256": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
+      "mode": "100644",
+      "bytes": 5
+    },
+    "upstream/.sqlfluff": {
+      "sha256": "f0d51cc34082f8ecc3156f5b9fad2660dc66492bc711f598cd1f368bc63fb1d0",
+      "mode": "100644",
+      "bytes": 29
+    },
+    "upstream/.sqlfluffignore": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/.vscode/extensions.json": {
+      "sha256": "a2756d5a21d75807a2275cad07257c36b8be8e40468e1dfc70a3273aa9186911",
+      "mode": "100644",
+      "bytes": 554
+    },
+    "upstream/Dockerfile": {
+      "sha256": "9c1ab2a6e89f14ba0b48d15910dfd906daddfc3c70f1b9bf7bb32e5447116bed",
+      "mode": "100644",
+      "bytes": 412
+    },
+    "upstream/LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "mode": "100644",
+      "bytes": 11357
+    },
+    "upstream/README.md": {
+      "sha256": "b48da310694f7f8b89099fa5b90f26791f18b34a95c8c4f802b5856dfbd543b9",
+      "mode": "100644",
+      "bytes": 16404
+    },
+    "upstream/RELEASE.md": {
+      "sha256": "4c63e104cd814d7acfc1104ce431ea35c4aa1b0bb30960a96799926a0a5c1fba",
+      "mode": "100644",
+      "bytes": 311
+    },
+    "upstream/dbt-completion.bash": {
+      "sha256": "aebc09ac76caebdf914cd3fbe4c64cab05417b86d489baa014b0b335891bc60d",
+      "mode": "100644",
+      "bytes": 6932
+    },
+    "upstream/dbt_project.yml": {
+      "sha256": "f3b26fc334f4f889f2cc8879a3d3c1a8ff0fb0b9b0001514d8efded8c390a732",
+      "mode": "100644",
+      "bytes": 541
+    },
+    "upstream/etc/dbdiagram_definition.txt": {
+      "sha256": "5e89b3ba7021d72054c1ef00c559ebb24cb154f8feeefe52d7d26bfe5e5873e0",
+      "mode": "100644",
+      "bytes": 302
+    },
+    "upstream/etc/jaffle_shop_erd.png": {
+      "sha256": "39db0d12047b6a39a5f351fd6a658c34d0b2c164c30d7111099fd4c6a5c79b1c",
+      "mode": "100644",
+      "bytes": 58179
+    },
+    "upstream/images/dbt_full_deploy_commands.png": {
+      "sha256": "4b8fade340e2881881b09e0dc12e0ed7af8b60942e4a4ddd35222d2ef54b1caf",
+      "mode": "100644",
+      "bytes": 131781
+    },
+    "upstream/images/dbt_performance.png": {
+      "sha256": "550f76a20c66385a5f0ad1681c9dd426fe50190328fb3a8e78a7e6a0005fc210",
+      "mode": "100644",
+      "bytes": 31524
+    },
+    "upstream/images/open_in_codespaces.png": {
+      "sha256": "9f04d004091728ca088fe759c924126172de22580544899f84c0733f6e825006",
+      "mode": "100644",
+      "bytes": 220112
+    },
+    "upstream/models/customers.sql": {
+      "sha256": "455b90a31f418ae776213ad9932c7cb72d19a5269a8c722bd9f4e44957313ce8",
+      "mode": "100644",
+      "bytes": 1195
+    },
+    "upstream/models/docs.md": {
+      "sha256": "28e3aee589b6731980cfe1a280c171486224a093776ee3ccde474c8a0d87901e",
+      "mode": "100644",
+      "bytes": 1068
+    },
+    "upstream/models/orders.sql": {
+      "sha256": "53950235d8e29690d259e95ee49bda6a5b7911b44c739b738a646dc6014bcfcd",
+      "mode": "100644",
+      "bytes": 970
+    },
+    "upstream/models/overview.md": {
+      "sha256": "200f2765262a955bbc74adba407f633540d87d839d158f80bf7cbe3f3a93fbf7",
+      "mode": "100644",
+      "bytes": 281
+    },
+    "upstream/models/schema.yml": {
+      "sha256": "91819c46a359d707743d20aae0d117d2bbdcac6e74e719de2c4149a97fde4e2d",
+      "mode": "100644",
+      "bytes": 2367
+    },
+    "upstream/models/staging/schema.yml": {
+      "sha256": "0a8cbc1108aabe9ff1a8b73dc4f5c85d170a313a5028e5e3785731e0b334fca7",
+      "mode": "100644",
+      "bytes": 725
+    },
+    "upstream/models/staging/stg_customers.sql": {
+      "sha256": "6f18a29204dad1de6dbb0c288144c4990742e0a1e065c3b2a67b5f98334c22ba",
+      "mode": "100644",
+      "bytes": 326
+    },
+    "upstream/models/staging/stg_orders.sql": {
+      "sha256": "afffa9cbc57e5fd2cf5898ebf571d444a62c9d6d7929d8133d30567fb9a2ce97",
+      "mode": "100644",
+      "bytes": 349
+    },
+    "upstream/models/staging/stg_payments.sql": {
+      "sha256": "eb899938258d1fba27fca716a7c334119912a2f9601282026097a7b6ce8cfcd2",
+      "mode": "100644",
+      "bytes": 442
+    },
+    "upstream/profiles.yml": {
+      "sha256": "5576b84f78aa9311e954f20482b383e66f45847da560f7d549cd5c4ce6a94378",
+      "mode": "100644",
+      "bytes": 118
+    },
+    "upstream/pyproject.toml": {
+      "sha256": "bcc667d880e29d767d1fe12f280aa406f5973a9c6be4d5e0a2e175054fc0f68f",
+      "mode": "100644",
+      "bytes": 312
+    },
+    "upstream/requirements.txt": {
+      "sha256": "7851daef7a554da671f7eaec24dc52bc49d94aab80da87c5f6190303d6b08f63",
+      "mode": "100644",
+      "bytes": 3922
+    },
+    "upstream/seeds/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/seeds/raw_customers.csv": {
+      "sha256": "24579b4b26098d43265376f3c50be8b10faf8e8fd95f5508074f10f76a12671d",
+      "mode": "100644",
+      "bytes": 1302
+    },
+    "upstream/seeds/raw_orders.csv": {
+      "sha256": "ee6c68d1639ec2b23a4495ec12475e09b8ed4b61e23ab0411ea7ec76648356f7",
+      "mode": "100644",
+      "bytes": 2723
+    },
+    "upstream/seeds/raw_payments.csv": {
+      "sha256": "03fd407f3135f84456431a923f22fc185a2154079e210c20b690e3ab11687d11",
+      "mode": "100644",
+      "bytes": 2560
+    },
+    "upstream/uv.lock": {
+      "sha256": "d580c0ace7af6a1f7d874be6769d794a78de9549ecf9cb5a3db8579ac77ab13b",
+      "mode": "100644",
+      "bytes": 223894
+    }
+  },
+  "excluded_git_metadata": [],
+  "history_repair": {
+    "pattern": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "approved_calendar": true,
+    "seed": 20251028,
+    "previous_main": "1097f5839b8a33c158015a0acbd6b8c5792a02c2",
+    "daily_counts": {
+      "2025-05-07": 1,
+      "2025-05-08": 2,
+      "2025-05-09": 3,
+      "2025-05-10": 1,
+      "2025-05-11": 0,
+      "2025-05-12": 3,
+      "2025-05-13": 5,
+      "2025-05-14": 4,
+      "2025-05-15": 3,
+      "2025-05-16": 0,
+      "2025-05-17": 5,
+      "2025-05-18": 1,
+      "2025-05-19": 0,
+      "2025-05-20": 2,
+      "2025-05-21": 1,
+      "2025-05-22": 3,
+      "2025-05-23": 0,
+      "2025-05-24": 2
+    },
+    "description": "Reconstructed import timestamps; not original development dates."
+  }
+}
